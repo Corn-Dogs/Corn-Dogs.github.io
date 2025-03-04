@@ -1,32 +1,34 @@
 .header {
-    height: 800px;
+    height: 700px;
     width: 100%;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.378);
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(5px);
-    margin-bottom: 50px;
-    position: relative;
+    margin-bottom: 500px;
     overflow: hidden;
 }
 
 h1 {
     font-size: 100px;
-    margin-left: 20px; /* Adds space between the image and the text */
+    margin-left: 20px; 
     position: relative;
     z-index: 1;
     overflow: hidden;
     white-space: nowrap;
     opacity: 20;
-    animation: revealText 2s steps(12) backwards;
-    animation-delay: 2s;
+    animation: revealText 1s steps(22) backwards;
+    animation-delay: 1s;
+}
+
+#headimg {
+    width: 600px;
+    animation-delay: 1s;
+    animation: glideImage 1.5s;
 }
 
 img {
     width: 600px;
-    animation-delay: 1s;
-    animation: glideImage 3s;
 }
 
 #headimg {
@@ -37,42 +39,31 @@ img {
 
 @keyframes revealText {
     0% {
-        width: 0;
-    }
+        width: 0;}
     100% {
-        width: 100%;
-    }
+        width: 57%;}
 }
 
 @keyframes glideImage {
+
     0% {
-        left: 50%;
         transform: translateX(0%);
-    }
-
-    15% {
-        left: 50%;
+        width: 100px;}
+        
+    25% {
         transform: translateX(0%);
-    }
-
-    30% {
-        left: 50%;
-        transform: translateY(30%);
-
-    }
-
-    45% {
-        left: 50%;
-        transform: translateY(0%);
-
-    }
-
-    30% {
-        left: 50%;
-        transform: translateX(20%);
-    }
+        width: 100px;}
+        
+    60% {
+        transform: translateX(40%);
+        height: 500px;
+        width: 500px;}
 
     100% {
-        left: calc(50% - 240px);
-        transform: translateX(-55%);
-    }}
+        transform: translateX(0%);
+        width: 100px;}
+
+
+
+
+ 
