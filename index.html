@@ -13,51 +13,52 @@
 
   <body>
     <div class="header">
-      <button id="menu" onclick="alert('clicked')">Menu</button>
-      <button id="nametag" onclick="MyFunction(this, random(colour))">Corn Dogs</button>
+      <div class="dropdown">
+        <button class="droptitle">Menu</button>
+        <div class="dropdown-content">
+          <a href="#About">About</a>
+          <a href="#Works">Works</a>
+          <a href="#Contact">Contact</a>
+        </div>
+      </div>
+      <button id="nametag">Corn Dogs</button>
       <div class="title">
         <img id="headimg" src="assets/headingimg.png"> 
         <h1>PHOTOGRAPHY</h1>
       </div>
     </div>
-
-
-
-    <h2>SECTION 1</h2>
+    <h2 id='Works'>SECTION 1</h2>
     <div class="section">
       <img src="assets/1.jpeg">  
       <div class = col-2 >
         <p>photo description</p>
+      </div>
     </div>
-    </div>
-
     <h2>SECTION 2</h2>
     <div class="section">
       <img src="assets/straight_stars.jpeg">  
       <p>photo description</p>
     </div>
-
-
     <h2>SECTION 3</h2>
     <div class="section">
       <img src="assets/duo_stars.JPG">  
       <p>photo description</p>
     </div>
-
-
     <h2>SECTION 4</h2>
     <div class="section">
       <img src="assets/camp_stars.JPG">  
       <p>photo description</p>
     </div>
-
-
     <h2>SECTION 5</h2>
     <div class="section">
       <img src="assets/group_forest.JPG">  
       <p>photo description</p>
     </div>
-
+    <div class="contact">
+      <h2>Contact Me! </h2>
+      <a href="mailto:0014212@student.isf.edu.hk?subject=Hello!&body=Hello Corn Dogs. %0A%0A I am emailing to contact you about your awesome website. %0A%0A Signed, User">Email</a>
+      <a href="mailto:0014212@student.isf.edu.hk?subject=Hello!&body=Hello Corn Dogs.">Email</a>202-555-0143
+    </div>
 
   </body>
   
