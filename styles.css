@@ -134,29 +134,29 @@ h2 {
 
 @keyframes glideImage {
     0% {
-        transform: translateX(0%);
-    }
-        
+        transform: translateX(0%);} 
     25% {
         transform: translateX(0%);
         scale: 20%;
-        rotate: 0deg;
-    }
-
+        rotate: 0deg;}
     50% {
         transform: translateX(40%) rotate(180deg);
         height: 500px;
         width: 500px;}
-
     100% {
         transform: translateX(0px) rotate(-360deg);
-        width: 120px;}}
+        width: 120px;}
+    }
   
 
 .section {
     text-align: center;
     color: white;
     margin-bottom: 1250px;
+}
+
+#section5 {
+    margin-bottom: 500px;
 }
 
 .section img {
@@ -166,4 +166,26 @@ h2 {
     width: 600px;
     border: 2px solid white;
 }
+
+.contact-transition {
+    background: linear-gradient(to bottom, black, rgb(241, 211, 172));
+    height: 60px;
+}
+
+    
+/* contact me section title */
+h3 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
+.contact {
+    background-color: rgb(241, 211, 172);
+    height: 300px;
+}
+
+
+
 
