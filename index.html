@@ -1,71 +1,85 @@
 <!DOCTYPE html>
 <html>
-    
-  <head>
-    <link rel="stylesheet" href="styles.css" >
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="header">
-      <div class="dropdown">
-        <button class="droptitle">Menu</button>
-        <div class="dropdown-content">
-          <a href="#About">About</a>
-          <a href="#Works">Works</a>
-          <a href="#Contact">Contact</a>
+        <div class="dropdown">
+            <button class="droptitle">Menu</button>
+            <div class="dropdown-content">
+                <a href="#About">About</a>
+                <a href="#Works">Works</a>
+                <a href="#Contact">Contact</a>
+            </div>
         </div>
+        <button id="nametag">Corn Dogs</button>
+        <div class="title">
+            <img id="headimg" src="assets/headingimg.png" alt="Heading Image"> 
+            <h1>PHOTOGRAPHY</h1>
+            <p id="name">by Nicholas Dixon</p>
+        </div>
+    </div>
+
+    <h2 id="About">WHO IS NICHOLAS DIXON?</h2>
+      <div class="horizontal-container">
+        <img src="assets/mystery-man.jpg" id="mystery">
+        <p id="about-description"> Nicholas Dixon is a 6"3 tall women's right activist who loves to read feminist literature. Dixon is a
+          rather peculiar creature, as he lives on a little hut on a rainbow. His colleagues often call him Leprochaun Man. This was before 
+          they all mysteriously dissapeared. Dixon has claimed to have not seen anything on the night of, and has denied all allegations.
+          <br>
+          <br>
+          Born in 1984 in Chicago, Illinouis, Dixon loves the little things in life and long walks on the beach. He especially enjoys
+          smelling the roses on the way back to his rainbow shack. Most recently, he has gained an interest in photography. His most favourite thing 
+          to take photos of is nature. Rumour has it that he visited Whistler, BC during the summer of '24 with his family and took many
+          photos of nature, specifically of the stars. On one late night (Approximately August 1st at 12:32 A.M.), Dixon and his brother
+          went out to take photos of the stars, using a method that they had acquired on social media previous day. With this website,
+          I hope to be able to enlighten you to the photography work of Nicholas Dixon, to highlight how he truly reaches for the stars.
+        </p>
       </div>
-
-      <button id="nametag">Corn Dogs</button>
-      <div class="title">
-        <img id="headimg" src="assets/headingimg.png"> 
-        <h1>PHOTOGRAPHY</h1>
-      </div>
     </div>
 
-    <h2 id='Works'>SECTION 1</h2>
+    <h2 id='Works'>Here are a few things that he's done recently</h2>
     <div class="section">
-      <img src="assets/1.jpeg">  
-      <div class = col-2 >
-        <p>photo description</p>
-      </div>
+        <img src="assets/1.jpeg" alt="Section 1">  
+        <p id="description">This is a photo of his cat: Cleo. An absolute fridge of a cat, Cleo weighs in at 300lbs. At the time this photo was taken, she was lounging in the sun on the dining table and living  
+        room chair.</p>
     </div>
 
-    <h2>SECTION 2</h2>
     <div class="section">
-      <img src="assets/straight_stars.jpeg">  
-      <p>photo description</p>
+      <img src="assets/straight_stars.jpeg" alt="section 2">  
+      <p id="description">This photo was taken on Nicholas' Auntie's (mother's sister) back porch. That night, they ate Deliveroo Domino's Pizza and watched The 
+          Hangover on a projector they had set up outside. The flimsy homeade projector screen barely held up because of the wind, but they set up books and stools 
+          to  attempt keep it rooted. In the end, when the movie was over, everyone was curled up in blankets and watched the stars.</p>
     </div>
 
-    <h2>SECTION 3</h2>
     <div class="section">
-      <img src="assets/duo_stars.JPG">  
-      <p>photo description</p>
+      <img src="assets/duo_stars.JPG" alt="section 3">  
+      <p id="description">This photo was taken in Whisler with his brother at 12:32 A.M. They were jetlagged. Method: Long exposure mode at night.</p>
     </div>
 
-    <h2>SECTION 4</h2>
     <div class="section">
-      <img src="assets/camp_stars.JPG">  
-      <p>photo description</p>
+      <img src="assets/camp_stars.JPG" alt="section 4">  
+      <p id="description">This photo was taken in Whistler with his brother at 12:35 A.M. Unfortunately, the road was the only place with the gap in the trees 
+        to see the stars. Nearly 10 people almost hit them with their cars.</p>
     </div>
 
-    <h2>SECTION 5</h2>
     <div class="section" id="section5">
-      <img src="assets/group_forest.JPG">  
-      <p>photo description</p>
+      <img src="assets/group_forest.JPG" alt="section 5">  
+      <p id="description">This last photo is my personal favourite. It shows Nicholas and his family members frolocking in the fields with dandilions. It is very
+        bright and cheerful. </p>
     </div>
 
-
-    <div class="contact"> 
+    <div class="contact" id="Contact"> 
       <div class="contact-transition"></div>
-      <h3>Contact Me</h3>
+      <a href="contact.html" id="contacttitle">Contact Me</a>
     </div>
 
-  </body>
-  
+</body>
+
 </html>
-
-

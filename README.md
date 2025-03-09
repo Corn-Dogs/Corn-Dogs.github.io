@@ -8,6 +8,8 @@ My personal site.
 
 > Use this section to  keep track of the resources you reference. You must include a link with a short description of how you used it. 
 
+Design changes:
+    I decided to change the colour pallete because the range of colours was too big for me and was quite random. I decided to change it to plainly white, black, and some beigey colour.
 
 1. I used https://www.w3schools.com/css/css_dropdowns.asp to understand dropdowns and help with the menu dropdown on the title page.
 

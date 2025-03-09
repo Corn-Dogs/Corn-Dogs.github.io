@@ -1,0 +1,107 @@
+
+:root {
+    background-color: rgb(241, 211, 172);
+    --border-gradient: linear-gradient(to bottom, white, black) 1;
+    --color1: white;
+    --color2: pink;
+    --color3: gray;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+#backarrow {
+    color: black;
+    text-decoration: none;
+    font-size: 90px;
+    right: 50px;
+    font-weight: bold;
+}
+
+#backarrow:hover {
+    animation: colour-change 0.3s forwards;
+}
+
+@keyframes colour-change {
+    0% {
+        color: black;
+    }
+    100% {
+        color:red;
+    }
+}
+
+
+#backarrow:focus {
+    animation: explode 0.3s forwards;
+}
+
+@keyframes explode {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+
+
+.title {
+    color: black;  
+    font-size: 40px;
+    margin-left: 120px;
+}
+
+
+
+.contact-links {
+    color: rgb(0, 64, 255);
+    font-size: 40px;
+    margin-left: 80px;
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 30px;
+    width: 300px;
+    background-color: gray;
+}
+
+
+@keyframes link-hover {
+    0% {
+        color: rgb(0, 64, 255)
+    }
+    100% {
+        color: black;
+    }
+}
+
+
+.contact-links a:hover {
+    color: rgb(13, 255, 0);
+}
+
+
+img {
+    width: 200px;
+    scale: 3;
+    margin-left: 400px;
+}
+
+.contact-container {
+    display:flex;
+    align-items: center;
+    margin: 100px;
+    padding-top: 100px;
+
+}
+

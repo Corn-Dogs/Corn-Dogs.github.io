@@ -15,6 +15,7 @@ body{
 }
 
 
+
 button {
     position: absolute;
     top: 60px;
@@ -75,6 +76,9 @@ display: block;
     color: rgb(244, 28, 132);
 }
 
+#nametag:active {
+    color: blue;
+}
 
 
 .title {
@@ -108,8 +112,15 @@ h1 {
 
 h2 {
     color: white;
-
+    justify-self: center;
 }
+
+
+#name {
+    color: white;
+    animation: showtext 3s forwards;
+}
+
 
 #headimg {
     width: 120px;
@@ -148,11 +159,44 @@ h2 {
         width: 120px;}
     }
   
+/* ABOUT */
+
+
+.horizontal-container {
+    display:flex;
+    align-items: center;
+    margin: 100px;
+    margin-bottom: 1500px;
+}
+
+#about-description {
+    color: white;
+    text-align: right;
+    line-height: 25px;
+    line-height: 1.5; 
+    padding-left:150px;
+}
+
+
+
+
+/* SECTIONS */
+
+#Works {
+    margin-bottom: 1000px;
+}
 
 .section {
     text-align: center;
     color: white;
-    margin-bottom: 1250px;
+    margin-bottom: 1500px;
+    display: flex;
+    align-items: center;
+}
+
+#description {
+    flex: 1;
+    margin-right: 170px;
 }
 
 #section5 {
@@ -161,29 +205,50 @@ h2 {
 
 .section img {
     border-radius: 10px;
-    opacity: 0;
-    animation: fadeInLeft 2s forwards;
     width: 600px;
     border: 2px solid white;
+    flex: 2;
+    scale: 0.7
+    
 }
 
-.contact-transition {
-    background: linear-gradient(to bottom, black, rgb(241, 211, 172));
-    height: 60px;
-}
 
     
-/* contact me section title */
-h3 {
+/* CONTACT ME section title */
+#contacttitle {
     font-size: 50px;
     color: black;
     text-align: center;
-    background-color: white;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    width: 300px;
+    text-decoration: none;
+    margin: auto;
+    display:block;
 }
 
 .contact {
     background-color: rgb(241, 211, 172);
-    height: 300px;
+    padding-bottom: 400px;
+    align-items: center;
+    padding-top: 300px;
+    display: flex;
+}
+
+
+#contacttitle:hover {
+    animation: drop 0.4s forwards;
+}
+
+@keyframes drop {
+    0% {
+        transform: translateY(0%);} 
+
+    100% {
+        transform: translateY(10px);
+    }
 }
 
 
